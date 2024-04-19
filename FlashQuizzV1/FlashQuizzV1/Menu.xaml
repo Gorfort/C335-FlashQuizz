@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashQuizzV1.Menu">
+
+    <ContentPage.Content>
+        <!-- Define your menu content here -->
+        <StackLayout>
+            <Label Text="Menu Page" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            <!-- Add more menu items or controls as needed -->
+            <Button Text="Pop" Clicked="OnPopClicked" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
