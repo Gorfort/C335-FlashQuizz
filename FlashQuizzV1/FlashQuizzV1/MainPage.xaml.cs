@@ -1,25 +1,19 @@
-﻿namespace FlashQuizzV1
+﻿using Microsoft.Maui.Controls;
+using System;
+
+namespace FlashQuizzV1
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void OnStartClicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            // Navigate to the MenuPage using push navigation
+            await Navigation.PushAsync(new Menu());
         }
     }
-
 }

@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\flashquizzv1\\flashquizzv1\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|solutionrelative:flashquizzv1\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\flashquizzv1\\flashquizzv1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|solutionrelative:flashquizzv1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\flashquizzv1\\flashquizzv1\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|solutionrelative:flashquizzv1\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\flashquizzv1\\flashquizzv1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAC3813E-B53A-4325-AE7B-8E19990797C6}|FlashQuizzV1\\FlashQuizzV1.csproj|solutionrelative:flashquizzv1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\Menu.xaml.cs",
+              "RelativeDocumentMoniker": "FlashQuizzV1\\Menu.xaml.cs",
+              "ToolTip": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\Menu.xaml.cs",
+              "RelativeToolTip": "FlashQuizzV1\\Menu.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T14:04:12.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.xaml",
+              "DocumentMoniker": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\Menu.xaml",
+              "RelativeDocumentMoniker": "FlashQuizzV1\\Menu.xaml",
+              "ToolTip": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\Menu.xaml",
+              "RelativeToolTip": "FlashQuizzV1\\Menu.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T14:04:05.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "FlashQuizzV1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\MainPage.xaml",
+              "RelativeToolTip": "FlashQuizzV1\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-19T13:58:57.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "FlashQuizzV1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\FlashQuizzV1\\FlashQuizzV1\\MainPage.xaml.cs",
+              "RelativeToolTip": "FlashQuizzV1\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T13:58:53.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
