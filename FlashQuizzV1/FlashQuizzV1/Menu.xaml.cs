@@ -2,7 +2,7 @@ using Microsoft.Maui.Controls;
 
 namespace FlashQuizzV1
 {
-    public partial class Menu : ContentPage
+    public partial class Menu : TabbedPage
     {
         public Menu()
         {
