@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\code\\flashquizzv3\\flashquizzv3\\carddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|solutionrelative:flashquizzv3\\carddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\code\\flashquizzv3\\flashquizzv3\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|solutionrelative:flashquizzv3\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\code\\flashquizzv3\\flashquizzv3\\carddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|solutionrelative:flashquizzv3\\carddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2982C38-204C-47C4-8317-4FCB97BA33ED}|FlashQuizzV3\\FlashQuizzV3.csproj|c:\\users\\po44oov\\documents\\github\\c335-flashquizz\\code\\flashquizzv3\\flashquizzv3\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -63,18 +63,17 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T14:35:32.798Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CardDatabase.cs",
               "DocumentMoniker": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\CardDatabase.cs",
               "RelativeDocumentMoniker": "FlashQuizzV3\\CardDatabase.cs",
               "ToolTip": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\CardDatabase.cs",
               "RelativeToolTip": "FlashQuizzV3\\CardDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T14:31:45.767Z",
               "EditorCaption": ""
@@ -89,8 +88,7 @@
               "RelativeToolTip": "FlashQuizzV3\\AddCardPage.xaml.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA1wB4AAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:30:23.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:30:23.206Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "FlashQuizzV3\\CardsPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T11:29:14.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T11:29:14.839Z"
             },
             {
               "$type": "Document",
@@ -119,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "QuizPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\QuizPage.xaml.cs",
               "RelativeDocumentMoniker": "FlashQuizzV3\\QuizPage.xaml.cs",
               "ToolTip": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\QuizPage.xaml.cs",
               "RelativeToolTip": "FlashQuizzV3\\QuizPage.xaml.cs",
-              "ViewState": "AQIAANUAAAAAAAAAAAAAAPYAAAAAAAAA",
+              "ViewState": "AQIAALsAAAAAAAAAAAAnwNkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T12:29:28.845Z",
               "EditorCaption": ""
@@ -140,8 +137,7 @@
               "RelativeToolTip": "FlashQuizzV3\\QuizPage.xaml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAABEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-19T11:46:16.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T11:46:16.293Z"
             },
             {
               "$type": "Document",

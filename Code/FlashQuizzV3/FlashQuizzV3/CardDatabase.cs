@@ -41,5 +41,16 @@ namespace FlashQuizzV3.Data
         {
             return _database.UpdateAsync(card);
         }
+
+        // Method to reset IncorrectCount for all cards
+        public async Task ResetIncorrectCountAsync()
+        {
+            var cards = await _database.Table<Card>().ToListAsync();
+            foreach (var card in cards)
+            {
+                card.IncorrectCount = 0;
+                await _database.UpdateAsync(card);
+            }
+        }
     }
 }

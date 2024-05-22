@@ -55,6 +55,9 @@ namespace FlashQuizzV3
                 _cards = _cards.OrderBy(c => Guid.NewGuid()).ToList(); // Shuffle the cards list
                 DisplayCurrentCard();
                 _startTime = DateTime.Now; // Start time when the quiz begins
+
+                // Reset incorrect count for all cards
+                await _database.ResetIncorrectCountAsync();
             }
             else
             {
@@ -201,8 +204,18 @@ namespace FlashQuizzV3
 
         private async void OnGoBackClicked(object sender, EventArgs e)
         {
+            // Reset most incorrect question and its incorrect count
+            var mostIncorrectCard = _cards.OrderByDescending(c => c.IncorrectCount).FirstOrDefault();
+            if (mostIncorrectCard != null)
+            {
+                mostIncorrectCard.IncorrectCount = 0;
+                await _database.UpdateCardAsync(mostIncorrectCard);
+            }
+
+            // Navigate back
             await Navigation.PopAsync();
         }
+
 
         private void OnRevealAnswerClicked(object sender, EventArgs e)
         {
