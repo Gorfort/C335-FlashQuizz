@@ -1,0 +1,74 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashQuizzV3.MenuPage"
+             Title="">
+
+    <Grid>
+        <!-- Main Content -->
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout
+                Padding="30"
+                Spacing="10">
+                <!-- Title Label -->
+                <Label
+                    Text="Welcome Flash Quizz !"
+                    Style="{StaticResource Headline}"
+                    SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                    Text="FlashQuizzV3 is a simple quiz app for testing your knowledge on various topics. It allows you to create, edit, and delete flashcards, as well as take quizzes based on your flashcards. Get ready to challenge yourself and improve your knowledge!" 
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Small"
+                    TextColor="Gray" />
+
+                <!-- Cards Page Description -->
+                <Label
+                    Text="Cards Page :"
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Medium"
+                    FontAttributes="Bold" />
+                <Label
+                    Text="Here you can view, edit, and delete your flashcards. Each flashcard contains a question and an answer. use the buttons to perform actions like editing or deleting."
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Small"
+                    TextColor="Gray"
+                    FontAttributes="Bold" />
+
+                <!-- Quiz Page Description -->
+                <Label
+                    Text="Quiz Page :"
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Medium"
+                    FontAttributes="Bold" />
+                <Label
+                    Text="Test your knowledge by taking quizzes based on your flashcards. Answer each question with 'Yes' or 'No' and see how well you do. After completing the quiz, you'll see your results, including the time spent and the percentage of correct answers."
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Small"
+                    TextColor="Gray"
+                    FontAttributes="Bold" />
+
+                <!-- Add Card Page Description -->
+                <Label
+                    Text="Add Card Page :"
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Medium"
+                    FontAttributes="Bold" />
+                <Label
+                    Text="Here you can add new flashcards to your collection. Simply enter a question and its answer, then tap 'Save' to add it. Make sure to fill out both fields before saving. Your new flashcard will be ready for use in quizzes or viewing."
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Small"
+                    TextColor="Gray"
+                    FontAttributes="Bold" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid RowDefinitions="*, Auto"
+              ColumnDefinitions="*,*,*"
+              VerticalOptions="End"
+              BackgroundColor="LightGray">
+            <Button Grid.Column="0" Text="Cards" Clicked="OnCardsClicked" Margin="10,10,0,10" />
+            <Button Grid.Column="1" Text="Quiz" Clicked="OnQuizClicked" Margin="10,10,0,10" />
+            <Button Grid.Column="2" Text="Add Card" Clicked="OnAddCardClicked" Margin="10,10,10,10" />
+        </Grid>
+    </Grid>
+</ContentPage>

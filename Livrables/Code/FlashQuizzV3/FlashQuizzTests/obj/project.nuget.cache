@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "sD49BnjddauAc0Q/9nLSmh7zpWBw3oJpvfEYR3qxQ+SFPR2Z72uRXdX5OXDyag7E6horggitqoaxM1jYA1fF4g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzTests\\FlashQuizzTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\po44oov\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\mstest.testadapter\\3.1.1\\mstest.testadapter.3.1.1.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\po44oov\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet FlashQuizzV3 n'est pas compatible avec net8.0 (.NETCoreApp,Version=v8.0). Le projet FlashQuizzV3 prend en charge :\r\n  - net8.0-android34.0 (.NETCoreApp,Version=v8.0)\r\n  - net8.0-ios17.2 (.NETCoreApp,Version=v8.0)\r\n  - net8.0-maccatalyst17.2 (.NETCoreApp,Version=v8.0)\r\n  - net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "FlashQuizzV3",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

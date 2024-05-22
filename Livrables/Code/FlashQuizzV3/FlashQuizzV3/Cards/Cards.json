@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "answer": "Paris"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "answer": "H2O"
+    },
+    {
+        "question": "What is the tallest mammal?",
+        "answer": "Giraffe"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answer": "Mars"
+    },
+    {
+        "question": "What is the powerhouse of the cell?",
+        "answer": "Mitochondria"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "answer": "Yen"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "answer": "Pacific Ocean"
+    },
+    {
+        "question": "Who discovered penicillin?",
+        "answer": "Alexander Fleming"
+    }
+]

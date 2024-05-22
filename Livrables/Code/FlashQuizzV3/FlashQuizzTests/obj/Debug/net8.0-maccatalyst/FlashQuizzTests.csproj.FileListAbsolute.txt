@@ -1,0 +1,8 @@
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\actool\_PartialAppManifest.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\actool\_BundleResourceWithLogicalName.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\actool\_ProcessedImageAssetsPath.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\coremlc\_PartialAppManifest.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\_ProcessedBundleResourcesPath.items
+C:\Users\po44oov\Documents\GitHub\C335-MAUI\FlashQuizzV3\FlashQuizzTests\obj\Debug\net8.0-maccatalyst\_ProcessedContentPath.items

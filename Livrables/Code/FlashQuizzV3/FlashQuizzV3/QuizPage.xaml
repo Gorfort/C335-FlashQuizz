@@ -1,0 +1,67 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashQuizzV3.QuizPage"
+             Title="">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Define styles here if needed -->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Existing content goes here -->
+            <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand" Margin="30,0" Spacing="10">
+                <Frame x:Name="QuestionFrame" BackgroundColor="LightGray" CornerRadius="10" Margin="0,30,0,30">
+                    <Label x:Name="QuestionLabel"
+                           Padding="20,20"
+                           Text="This is the Quiz Page"
+                           Style="{StaticResource Headline}"
+                           SemanticProperties.HeadingLevel="Level1">
+                    </Label>
+                </Frame>
+
+                <Frame BackgroundColor="LightGray" CornerRadius="10" Margin="0,10,0,0">
+                    <Label x:Name="AnswerLabel"
+                           Padding="10"
+                           Text="Answer"
+                           IsVisible="False"
+                           Style="{StaticResource BodyStyle}"
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center">
+                    </Label>
+                </Frame>
+
+                <HorizontalStackLayout x:Name="ButtonsLayout" Spacing="10" HorizontalOptions="Center" IsVisible="False">
+                    <Button x:Name="NoButton" Text="No" BackgroundColor="Salmon" TextColor="White" Clicked="OnNoButtonClicked" Margin="0,40,30,0" Padding="30" FontSize="Medium" FontAttributes="Bold" />
+                    <Button x:Name="YesButton" Text="Yes" BackgroundColor="YellowGreen" TextColor="White" Clicked="OnYesButtonClicked" Margin="0,40,0,0" Padding="30" FontSize="Medium" FontAttributes="Bold"/>
+                </HorizontalStackLayout>
+            </StackLayout>
+
+            <!-- "Reveal Answer" button -->
+            <StackLayout Grid.Row="2" VerticalOptions="End" Margin="50,0,50,20" Spacing="5">
+                <Button x:Name="RevealAnswerButton" Text="Reveal Answer" BackgroundColor="DodgerBlue" TextColor="White" Clicked="OnRevealAnswerClicked" Padding="20" FontSize="Medium" FontAttributes="Bold" Margin="10,0,10,30"/>
+                <Label
+                    x:Name="InstructionLabel"
+                    Text="Click on the Question to reveal the answer !&#x0a;Or Shake your phone to have a new question if you dont know the Answer"
+                    Style="{StaticResource BodyStyle}"
+                    FontSize="Small"
+                    TextColor="Gray"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    IsVisible="True" />
+                <Button x:Name="StopButton" Text="Stop Quiz" BackgroundColor="Tomato" Clicked="OnStopButtonClicked" Margin="80,10,80,0" FontSize="Medium" />
+                <Button Text="Go Back" Clicked="OnGoBackClicked" Margin="80,5,80,0" FontSize="Medium" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashQuizzV3.CardsPage"
+             Title="">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" Margin="0">
+            <Label
+                Text="Your cards"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level1"
+                HorizontalOptions="CenterAndExpand" />
+
+            <!-- Message to show when there are no cards -->
+            <Label Text="You currently have no cards. Go to the Add Card page on the menu to add new cards!"
+                   FontSize="Medium"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   IsVisible="False">
+                <Label.Triggers>
+                    <DataTrigger TargetType="Label" Binding="{Binding Cards.Count}" Value="0">
+                        <Setter Property="IsVisible" Value="True" />
+                    </DataTrigger>
+                </Label.Triggers>
+            </Label>
+
+            <ListView
+                x:Name="CardsListView"
+                ItemsSource="{Binding Cards}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Question}" FontSize="Medium" Margin="10,5,0,0" />
+                                <Label Text="{Binding Answer}" FontSize="Small" Margin="10,5,0,0" />
+                                <Label Text="{Binding KnowledgeLevel, StringFormat='Knowledge Level: {0}'}" FontSize="Small" Margin="10,5,0,10" />
+                                <StackLayout Orientation="Horizontal" Spacing="10">
+                                    <Button Text="Edit" BackgroundColor="orange" FontAttributes="Bold" Clicked="OnEditButtonClicked" CommandParameter="{Binding .}" />
+                                    <Button Text="Delete" BackgroundColor="Salmon" FontAttributes="Bold" Clicked="OnDeleteButtonClicked" CommandParameter="{Binding .}" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout BackgroundColor="LightGray">
+                <Button Text="Go Back" Clicked="OnGoBackButtonClicked"
+                        HorizontalOptions="Center"
+                        Margin="0,10,0,10"
+                        WidthRequest="200"
+                        HeightRequest="45" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
