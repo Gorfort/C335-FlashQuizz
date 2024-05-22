@@ -106,13 +106,22 @@ namespace FlashQuizzV3
             {
                 _noCount++;
                 _respondedQuestionsCount++; // Increment the count of responded questions
+
+                // Increment the incorrect count for the current card
+                _cards[_currentIndex].IncorrectCount++;
+
                 // Decrease knowledge level for incorrect answers, ensuring it doesn't go below 0
                 if (_cards[_currentIndex].KnowledgeLevel > 0)
                 {
                     _cards[_currentIndex].KnowledgeLevel--;
                     await _database.UpdateCardAsync(_cards[_currentIndex]); // Update card in the database
                 }
-                _currentIndex++;
+
+                // Move the current card to the end of the list
+                var currentCard = _cards[_currentIndex];
+                _cards.RemoveAt(_currentIndex);
+                _cards.Add(currentCard);
+
                 DisplayCurrentCard();
             }
         }
@@ -123,8 +132,24 @@ namespace FlashQuizzV3
             TimeSpan duration = _endTime - _startTime;
             double totalTimeMinutes = duration.TotalMinutes;
             double correctPercentage = (_yesCount / (double)(_yesCount + _noCount)) * 100;
+
+            // Find the card with the maximum incorrect count
+            var mostIncorrectCard = _cards.OrderByDescending(c => c.IncorrectCount).FirstOrDefault();
+
             QuestionLabel.Text = "Quiz Completed!";
-            AnswerLabel.Text = $"Time spent: {totalTimeMinutes:F2} minutes\nPercentage of correct answers: {correctPercentage:F2}%\nCorrect Answers: {_yesCount}\nIncorrect Answers: {_noCount}\nResponded Questions: {_respondedQuestionsCount}"; // Include the number of responded questions
+            AnswerLabel.Text = $"Time spent: {totalTimeMinutes:F2} minutes\n" +
+                               $"Percentage of correct answers: {correctPercentage:F2}%\n" +
+                               $"Correct Answers: {_yesCount}\n" +
+                               $"Incorrect Answers: {_noCount}\n" +
+                               $"Responded Questions: {_respondedQuestionsCount}\n";
+
+            // Include the most incorrectly answered question details
+            if (mostIncorrectCard != null)
+            {
+                AnswerLabel.Text += $"\nMost incorrect question: {mostIncorrectCard.Question}\n" +
+                                    $"Incorrect count: {mostIncorrectCard.IncorrectCount}";
+            }
+
             AnswerLabel.IsVisible = true;
             ButtonsLayout.IsVisible = false;
             IsQuizEnded = true; // Set IsQuizEnded to true when the quiz ends
@@ -143,9 +168,25 @@ namespace FlashQuizzV3
             double totalTimeMinutes = duration.TotalMinutes;
             double correctPercentage = (_yesCount + _noCount) > 0 ? (_yesCount / (double)(_yesCount + _noCount)) * 100 : 0;
 
+            // Find the card with the maximum incorrect count
+            var mostIncorrectCard = _cards.OrderByDescending(c => c.IncorrectCount).FirstOrDefault();
+
             // Display quiz results
             QuestionLabel.Text = "Quiz Ended";
-            AnswerLabel.Text = $"Time spent: {totalTimeMinutes:F2} minutes\nTotal questions: {_cards.Count}\nResponded questions: {_respondedQuestionsCount}\nCorrect answers: {_yesCount}\nIncorrect answers: {_noCount}\nPercentage of correct answers: {correctPercentage:F2}%";
+            AnswerLabel.Text = $"Time spent: {totalTimeMinutes:F2} minutes\n" +
+                               $"Total questions: {_cards.Count}\n" +
+                               $"Responded questions: {_respondedQuestionsCount}\n" +
+                               $"Correct answers: {_yesCount}\n" +
+                               $"Incorrect answers: {_noCount}\n" +
+                               $"Percentage of correct answers: {correctPercentage:F2}%\n";
+
+            // Include the most incorrectly answered question details
+            if (mostIncorrectCard != null)
+            {
+                AnswerLabel.Text += $"\nMost incorrect question: {mostIncorrectCard.Question}\n" +
+                                    $"Incorrect count: {mostIncorrectCard.IncorrectCount}";
+            }
+
             AnswerLabel.IsVisible = true;
             ButtonsLayout.IsVisible = false;
             StopButton.IsVisible = false;

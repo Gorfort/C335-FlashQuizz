@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a/G1RkHH/32pfF4v6GrFDXCZAaG9l8w7ctveyuk7SxwEpJNwyCNuU/xoA4tnnTJUYq/yl2oee/guW5lwPJsXBg==",
+  "dgSpecHash": "jMW7cuAHXOkXrQT3GprACdB4QOtuxQFgj5e0SH4Za64VRe+aAL5/xFXX/0SNcg/63b3EWGsmpsu7NXoskRYwUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj",
+  "projectFilePath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\po44oov\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\po44oov\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

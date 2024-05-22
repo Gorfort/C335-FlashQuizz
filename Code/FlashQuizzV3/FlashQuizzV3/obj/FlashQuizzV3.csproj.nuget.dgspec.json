@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj": {}
+    "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj": {
+    "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj",
+        "projectUniqueName": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj",
         "projectName": "FlashQuizzV3",
-        "projectPath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj",
+        "projectPath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\FlashQuizzV3.csproj",
         "packagesPath": "C:\\Users\\po44oov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-MAUI\\FlashQuizzV3\\FlashQuizzV3\\obj\\",
+        "outputPath": "C:\\Users\\po44oov\\Documents\\GitHub\\C335-FlashQuizz\\Code\\FlashQuizzV3\\FlashQuizzV3\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

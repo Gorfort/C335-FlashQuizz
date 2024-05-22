@@ -22,8 +22,16 @@ namespace FlashQuizzV3.Data
 
         public Task<int> SaveCardAsync(Card card)
         {
-            return _database.InsertAsync(card);
+            if (card.Id != 0)
+            {
+                return _database.UpdateAsync(card);
+            }
+            else
+            {
+                return _database.InsertAsync(card);
+            }
         }
+
         public Task<int> DeleteCardAsync(Card card)
         {
             return _database.DeleteAsync(card);
