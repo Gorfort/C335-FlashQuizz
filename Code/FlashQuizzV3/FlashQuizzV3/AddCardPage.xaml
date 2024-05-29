@@ -12,7 +12,7 @@
 
                     <Entry x:Name="QuestionEntry" Placeholder="Enter the question" MaxLength="30" Margin="0,20,0,0" />
 
-                    <Entry x:Name="AnswerEntry" Placeholder="Enter the answer" MaxLength="30" />
+                    <Entry x:Name="AnswerEntry" Placeholder="Enter the answer" MaxLength="250" />
 
                     <Button Text="Save" Clicked="OnSaveButtonClicked" Margin="80,20,80,0" BackgroundColor="YellowGreen" />
                 </VerticalStackLayout>
