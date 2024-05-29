@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashQuizzV3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dca4be983eace4650194647a72b4e5c71cc6538f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d868d4d47edcb2777d3041b2ce0815744220fb34")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashQuizzV3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashQuizzV3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

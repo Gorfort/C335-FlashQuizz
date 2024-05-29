@@ -216,13 +216,19 @@ namespace FlashQuizzV3
             await Navigation.PopAsync();
         }
 
-
-        private void OnRevealAnswerClicked(object sender, EventArgs e)
+        private async void OnRevealAnswerClicked(object sender, EventArgs e)
         {
             if (_currentIndex < _cards.Count)
             {
-                ButtonsLayout.IsVisible = true;
-                AnswerLabel.IsVisible = true;
+                // Rotate the question label out
+                await QuestionLabel.RotateYTo(90, 250, Easing.Linear);
+
+                // Toggle visibility of AnswerLabel and ButtonsLayout
+                AnswerLabel.IsVisible = !AnswerLabel.IsVisible;
+                ButtonsLayout.IsVisible = !ButtonsLayout.IsVisible;
+
+                // Rotate the answer label in
+                await QuestionLabel.RotateYTo(0, 250, Easing.Linear);
             }
         }
 
